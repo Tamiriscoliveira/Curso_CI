@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         go_version: ['1.20', '1.18', '>=1.18']
-        os: ['ubuntu-latest', 'ubuntu-18']
+        os: ['ubuntu-latest', 'redhat-latest']
     steps:
     - uses: actions/checkout@v3
     
